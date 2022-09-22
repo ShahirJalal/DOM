@@ -26,8 +26,6 @@
 
 const items = document.querySelectorAll('ul.collection li.collection-item');
 
-// console.log(items);
-
 items.forEach(function(item) {
     item.textContent = 'Hello'
 });
@@ -42,3 +40,5 @@ liOdd.forEach(function(li){
 for (let i = 0; i < liEven.length; i++){
     liEven[i].style.background = 'red';
 }
+
+// console.log(items);
