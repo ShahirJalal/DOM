@@ -8,24 +8,24 @@ function runEvent(e){
     val = e;
 
     //event traget element
-    //val = e.target;
-    //val = e.target.id;
-    //val = e.target.className;
-    //val = e.target.classList;
+    val = e.target;
+    val = e.target.id;
+    val = e.target.className;
+    val = e.target.classList;
 
     //Event type
-    // val = e.type;
+    val = e.type;
 
     //timestamp
-    // val = e.timeStamp;
+    val = e.timeStamp;
 
     //coord events related to the window
-    //val = e.clientY;
-    //val = e.clientX;
+    val = e.clientY;
+    val = e.clientX;
 
     //coords related to the element
-    //val = e.offsetY;
-    //val = e.offsetX;
+    val = e.offsetY;
+    val = e.offsetX;
 
     console.log(val);
 }

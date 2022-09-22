@@ -34,7 +34,8 @@
 
 // Event delegation
 // It is opposite to event bubbling
-// We put the event listeners on the parent element and it goes down to the child
+// We put the event listeners on the parent 
+// element and it goes down to the child
 
 const delItem = document.querySelector('.delete-item');
 
